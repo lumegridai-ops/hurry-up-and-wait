@@ -4,8 +4,8 @@ An original 21-second procedural Blender short about two very different journeys
 
 ## Watch and inspect
 
-- Final film: `final/hurry-up-and-wait.mp4` (completed and validated)
-- Preview: `preview/hurry-up-and-wait-preview.mp4`
+- [Watch or download the completed 1080p film](https://github.com/lumegridai-ops/hurry-up-and-wait/releases/download/v0.1.0/hurry-up-and-wait.mp4)
+- [Release and verification notes](https://github.com/lumegridai-ops/hurry-up-and-wait/releases/tag/v0.1.0)
 - Editable scene: `hurry-up-and-wait.blend`
 - Genuine Blender UI screenshot: `blender-wip.png`
 - Representative beauty renders: `final/still-*.png` (these are renders, not UI screenshots)
@@ -47,4 +47,4 @@ The story uses a familiar idea about haste and waiting. We claim original execut
 
 The first still pass exposed incorrect wheel axes and text overlap. Later temporal/kinematic review found backward tire rotation and wheel rotation continuing during passive ferry travel. These were corrected. Earlier development renders are retained locally under `development-v2-*` for audit; they are not the final submission film. The final render must be paired with its own `final/build-manifest.json` and QA reports.
 
-The source package and film are prepared for public inspection. No official contest submission has been made.
+The source package and film are public. No official contest submission has been made; the submission window opens October 15, 2026.
