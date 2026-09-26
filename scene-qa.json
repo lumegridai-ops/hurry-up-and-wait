@@ -1,0 +1,81 @@
+{
+  "gate_envelope_checks": 23,
+  "gate_min_clearance_scene_units": 0.5861205830788896,
+  "rolling": [
+    {
+      "car": "RED / impatient racer",
+      "frames": [
+        60,
+        80
+      ],
+      "distance": 2.383866786956787,
+      "wheel_arc": 2.383867052793503,
+      "error": 2.658367157515329e-07
+    },
+    {
+      "car": "RED / impatient racer",
+      "frames": [
+        293,
+        311
+      ],
+      "distance": 1.234949141740799,
+      "wheel_arc": 1.2349500274658203,
+      "error": 8.857250213267776e-07
+    },
+    {
+      "car": "RED / impatient racer",
+      "frames": [
+        310,
+        325
+      ],
+      "distance": 0.9569728374481201,
+      "wheel_arc": 0.9569730377197265,
+      "error": 2.0027160640978536e-07
+    },
+    {
+      "car": "CYAN / steady courier",
+      "frames": [
+        60,
+        80
+      ],
+      "distance": 0.15999269485473633,
+      "wheel_arc": 0.15999319061636924,
+      "error": 4.957616329126502e-07
+    },
+    {
+      "car": "CYAN / steady courier",
+      "frames": [
+        293,
+        311
+      ],
+      "distance": 1.234949141740799,
+      "wheel_arc": 1.2349492263793944,
+      "error": 8.463859546559149e-08
+    },
+    {
+      "car": "CYAN / steady courier",
+      "frames": [
+        310,
+        325
+      ],
+      "distance": 0.9569728374481201,
+      "wheel_arc": 0.9569726371765136,
+      "error": 2.0027160652080767e-07
+    }
+  ],
+  "ferry_carry": [
+    {
+      "car": "RED / impatient racer",
+      "maximum_relative_drift": 4.76837158203125e-07
+    },
+    {
+      "car": "CYAN / steady courier",
+      "maximum_relative_drift": 4.76837158203125e-07
+    }
+  ],
+  "wheels_stationary_on_moving_ferry": true,
+  "minimum_tire_axle_alignment": 1.0,
+  "final_frame_title_and_signal_persist": true,
+  "status": "passed",
+  "scope": "Gate envelope, wheel travel during approach/boarding, tire axes and rigid transport with ferry. Not a physical simulation or general collision certification."
+}

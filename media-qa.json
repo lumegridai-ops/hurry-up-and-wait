@@ -1,0 +1,39 @@
+{
+  "programs": [],
+  "stream_groups": [],
+  "streams": [
+    {
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "24/1",
+      "nb_frames": "504",
+      "nb_read_frames": "504"
+    },
+    {
+      "codec_name": "aac",
+      "sample_rate": "48000",
+      "channels": 2,
+      "r_frame_rate": "0/0",
+      "nb_frames": "986",
+      "nb_read_frames": "985"
+    }
+  ],
+  "format": {
+    "duration": "21.000000"
+  },
+  "status": "passed",
+  "rendered_png_count": 504,
+  "video_sha256": "c932aa18a1a7a6a5fd85d70d74bcbdd03b216df4f2b4aaac10f613c5f661fb36",
+  "source_sha256": "71b7c9f3a7ec111e88af74dc86e949ad8d7415b5e4154b48145780b1270432c4",
+  "audio_source_sha256": "b941db041915a841e3b2f0b701a6d48985fc9c68b540a6a5223335f3989fc1d1",
+  "blender_file_sha256": "4dc6e96c67f16fa678583e1d5160c1a1e8f5b4ad238cc473f701cb18e2eaa2c5",
+  "wip_sha256": "84ba069e3e16d0c76a2911d7078c6f0bbfb4baa6638338ad8dfd5b2cbfd0c04b",
+  "checks": [
+    "504 valid full-resolution PNGs",
+    "24 fps / 21 seconds",
+    "H.264 + AAC",
+    "full FFmpeg decode"
+  ],
+  "limits": "Technical media checks only; see independent review for visual/temporal observations."
+}

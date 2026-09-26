@@ -1,0 +1,9 @@
+{
+  "duration": 21,
+  "sample_rate": 48000,
+  "channels": 2,
+  "seed": 47,
+  "peak": 0.12174555431768201,
+  "source": "Original additive synthesized Foley in sound.py",
+  "samples_or_recordings": []
+}

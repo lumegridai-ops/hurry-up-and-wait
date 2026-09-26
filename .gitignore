@@ -1,0 +1,10 @@
+__pycache__/
+*.blend1
+*.log
+*.mp4
+preview/frames/
+final/frames/
+development-v2-*/
+foley.wav
+preview/
+review.html
