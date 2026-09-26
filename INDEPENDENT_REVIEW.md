@@ -9,7 +9,7 @@ The final export is complete and independently verified below. The initial previ
 ## What I actually inspected
 
 - CONCEPT.md and the production script build.py, including the character paths, gate timing, typography windows and ferry carry.
-- The corrected preview at [preview/hurry-up-and-wait-preview.mp4](/Users/matt/hackathon/speed-film/preview/hurry-up-and-wait-preview.mp4), SHA-256 `858b64d67682af9667948a74daa47e38dd36c86ecff4816dcdbf3995835cc46e`.
+- The corrected preview at `preview/hurry-up-and-wait-preview.mp4` (development preview retained locally), SHA-256 `858b64d67682af9667948a74daa47e38dd36c86ecff4816dcdbf3995835cc46e`.
 - Real rendered stills at frames 1, 90, 190, 270, 305, 380 and 474, plus frames 237, 293, 299 and 311 around the waiting/boarding transitions.
 - A contact sequence decoded from the corrected MP4 at one-second intervals, and its exact final encoded frame 504. Temporary review images were kept outside the production directory.
 - Actual browser playback of the corrected preview. The player reported a 21-second duration and an advancing current time with paused=false; captured playback showed the ferry carrying both cars. This review used sampled visual observations, not a claim to continuous human viewing of every frame.
@@ -49,7 +49,7 @@ I independently extracted frame 504 from both the corrected encoded preview and 
 
 ## Final export verification
 
-The independently checked final file is [final/hurry-up-and-wait.mp4](/Users/matt/hackathon/speed-film/final/hurry-up-and-wait.mp4), 5,240,887 bytes, SHA-256 `c932aa18a1a7a6a5fd85d70d74bcbdd03b216df4f2b4aaac10f613c5f661fb36`.
+The independently checked final file is [final/hurry-up-and-wait.mp4](https://github.com/lumegridai-ops/hurry-up-and-wait/releases/download/v0.1.0/hurry-up-and-wait.mp4), 5,240,887 bytes, SHA-256 `c932aa18a1a7a6a5fd85d70d74bcbdd03b216df4f2b4aaac10f613c5f661fb36`.
 
 - FFprobe reports H.264, 1920×1080, 24/1 fps, 504 video frames and a 21.000-second duration, with AAC stereo audio at 48 kHz.
 - A fresh full FFmpeg decode of this exact file returned 0 with no decoder errors.
